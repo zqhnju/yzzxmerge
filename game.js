@@ -230,7 +230,7 @@
   }
 
   function takeRandomLevel() {
-    return Math.floor(Math.random()*1* CONFIG.spawnLevelCount);
+    return Math.floor(Math.random()*1.5* CONFIG.spawnLevelCount);
   }
 
   function makeItem(level, x, y, vx, vy, source) {
